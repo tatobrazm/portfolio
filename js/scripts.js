@@ -39,7 +39,7 @@ const showWeatherData = async (city) => {
   const data = await getWeatherData(city);
   if (data == "Erro") {
     weatherContainer.classList.add("hide");
-    const photo = await getPhotos(city);
+    const photo = await getPhotos('Aleatório');
   } else {
     cityElement.innerText = data.name;
     tempElement.innerText = parseInt(data.main.temp);
