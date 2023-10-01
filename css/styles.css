@@ -11735,6 +11735,7 @@ html {
 
 #background-weather {
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container-weather {
