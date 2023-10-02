@@ -1,5 +1,5 @@
 const apiKey = "5981348cae4ccd9b30746c2c2f73ca3f";
-const urlPhotos = "https://source.unsplash.com/1600x1200/?";
+const urlPhotos = "https://source.unsplash.com/3200x2400/?";
 
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector("#search");
